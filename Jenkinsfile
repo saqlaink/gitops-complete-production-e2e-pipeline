@@ -46,7 +46,19 @@ pipeline {
   post {
       always {
         script {
-          slackSend channel: "#jenkins", message: "Build Started: ${env.JOB_NAME} ${env.BUILD_NUMBER}"
+          def status = currentBuild.result ?: 'UNKNOWN'
+          def color 
+          switch(status) {
+            case 'SUCCESS':
+              color = 'good'
+              break
+            case 'FAILURE':
+              color = 'danger'
+              break
+            default:
+              color = 'warning'
+          }
+          slackSend(channel: "#jenkins", message: "Update Deployment ${status.toLowerCase()} for ${env.JOB_NAME} (${env.BUILD_NUMBER})\n More info at: ${env.BUILD_URL}", iconEmoji: ":jenkins:", color: color)
         }
       }
     }
