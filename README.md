@@ -15,6 +15,7 @@ This repository adheres to GitOps practices and integrates with the Jenkins pipe
 ## Kubernetes and Pull-Based Deployment with ArgoCD
 
 This GitOps pipeline is tailored for Kubernetes environments and leverages ArgoCD for pull-based deployments. ArgoCD synchronizes the desired state in the GitOps repository with the actual state in the Kubernetes cluster, ensuring continuous deployment and system stability.
+[![ArgoCD](https://i.postimg.cc/j2YmChj3/Screenshot-2023-11-30-at-3-05-49-PM.png)](https://postimg.cc/cgTXbwwf)
 
 ### 1. Cleanup Workspace
 
