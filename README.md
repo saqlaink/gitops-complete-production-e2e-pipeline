@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository complements the [Complete Production E2E Pipeline](link_to_your_jenkins_pipeline), facilitating end-to-end deployments in a complete production environment. The Jenkins pipeline, configured separately, automates deployment processes based on GitOps principles.
+This repository complements the [Complete Production E2E Pipeline](https://github.com/saqlaink/complete-production-e2e-pipeline), facilitating end-to-end deployments in a complete production environment. The Jenkins pipeline, configured separately, automates deployment processes based on GitOps principles.
 
 ## Associated Jenkins Pipeline
 
-Find the associated Jenkins pipeline [here](link_to_your_jenkins_pipeline), which orchestrates the deployment processes for this application repository.
+Find the associated Jenkins pipeline [here](https://github.com/saqlaink/complete-production-e2e-pipeline), which orchestrates the deployment processes for this application repository.
 
 ## GitOps Deployment Flow
 
