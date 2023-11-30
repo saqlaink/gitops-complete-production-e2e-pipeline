@@ -8,8 +8,6 @@ This repository complements the [Complete Production E2E Pipeline](https://githu
 
 Find the associated Jenkins pipeline [here](https://github.com/saqlaink/complete-production-e2e-pipeline/blob/main/Jenkinsfile), which orchestrates the deployment processes for this application repository.
 
-[![Jenkins](https://i.postimg.cc/c4zb457m/Screenshot-2023-11-30-at-4-54-04-PM.png)](https://postimg.cc/PPm4SyRp)
-
 ## GitOps Deployment Flow
 
 This repository adheres to GitOps practices and integrates with the Jenkins pipeline to execute the following steps:
@@ -39,6 +37,8 @@ This GitOps pipeline is tailored for Kubernetes environments and leverages ArgoC
 
 - After deployment completion, a Slack notification is dispatched to a designated channel, providing deployment status (Success, Failure, or Unknown), job name, build number, and a link for additional insights.
 - Automatically syncs the GitOps repository with the changes, ensuring the actual system state aligns with the desired state specified in the repository.
+
+[![Jenkins](https://i.postimg.cc/c4zb457m/Screenshot-2023-11-30-at-4-54-04-PM.png)](https://postimg.cc/PPm4SyRp)
 
 ## Usage
 
