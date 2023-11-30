@@ -6,7 +6,7 @@ This repository complements the [Complete Production E2E Pipeline](https://githu
 
 ## Associated Jenkins Pipeline
 
-Find the associated Jenkins pipeline [here](https://github.com/saqlaink/complete-production-e2e-pipeline), which orchestrates the deployment processes for this application repository.
+Find the associated Jenkins pipeline [here](https://github.com/saqlaink/complete-production-e2e-pipeline/blob/main/Jenkinsfile), which orchestrates the deployment processes for this application repository.
 
 ## GitOps Deployment Flow
 
